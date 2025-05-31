@@ -140,7 +140,6 @@ li a:hover {
     color: white;
 }
 
-/* === ADDED FOR SPOTIFY HEADER LAYOUT === */
 .header-with-spotify {
     display: flex;
     justify-content: space-between;
@@ -148,17 +147,20 @@ li a:hover {
     flex-wrap: wrap;
     margin: 2vh 3%;
     gap: 20px;
+    flex-direction: row; /* Ensure default left-to-right flow */
 }
 
 .header-with-spotify h1 {
     margin: 0;
     flex: 1;
-    text-align: right;
+    text-align: left;
 }
 
 .header-with-spotify iframe {
     width: 300px;
-    height: 200px;
+    height: 80px;
     border-radius: 12px;
     flex-shrink: 0;
+    order: 2; /* Make sure iframe is placed AFTER h1 in layout */
 }
+
