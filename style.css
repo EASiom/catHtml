@@ -163,7 +163,7 @@ li a:hover {
 
 .spotify-embed-wrapper iframe {
     width: 100%;
-    height: 152px;
+    height: 200px;
     border-radius: 12px;
     display: block;
 }
