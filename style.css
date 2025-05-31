@@ -144,15 +144,13 @@ li a:hover {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    flex-wrap: wrap;
     margin: 2vh 3%;
     gap: 20px;
-    flex-direction: row;
 }
 
 .header-with-spotify h1 {
     margin: 0;
-    flex: 1; /* Keeps text on the left */
+    flex: 1 1 auto;
     text-align: left;
 }
 
@@ -161,5 +159,5 @@ li a:hover {
     height: 80px;
     border-radius: 12px;
     flex-shrink: 0;
-    margin-left: auto; /* Forces iframe to align right */
+    margin-left: 20px;
 }
