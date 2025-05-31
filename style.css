@@ -153,12 +153,12 @@ li a:hover {
 .header-with-spotify h1 {
     margin: 0;
     flex: 1;
-    text-align: left;
+    text-align: right;
 }
 
 .header-with-spotify iframe {
     width: 300px;
-    height: 80px;
+    height: 200px;
     border-radius: 12px;
     flex-shrink: 0;
 }
